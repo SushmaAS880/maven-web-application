@@ -1,0 +1,18 @@
+pipeline{
+agent any
+stages{
+    
+stage('checkoutcode'){
+steps{
+ git credentialsId: '81919e04-39ee-4efc-8158-b37242b061cc', url: 'https://github.com/SushmaAS880/maven-web-application.git'    
+   
+}
+    
+ }    
+ 
+
+ 
+
+ 
+}
+}
